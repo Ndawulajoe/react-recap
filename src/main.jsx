@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   {
     path: '/git-profile/:gitUsername',
     element: <GitProfile />,
-    loader: () => alert("works")  
+    // loader: () => alert("works")  
   },
   {
     path: "/",
